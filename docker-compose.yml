@@ -1,8 +1,8 @@
 version: '3'
 services:
-  rails:
+  hello_app:
     build: .
     volumes:
-      - ./:/hello_app
+      - ./hello_app:/hello_app
     ports:
       - 3000:3000
